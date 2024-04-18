@@ -12,3 +12,8 @@ def aboutMe():
         "is_online": True
     }
     return me
+
+# @app.post()
+# @app.put()
+# @app.patch()
+# @app.delete()
