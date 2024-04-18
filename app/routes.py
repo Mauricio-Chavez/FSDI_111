@@ -3,10 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.get('/')
-def index():
-    return "Hello World"
-
-@app.get('/aboutme')
+@app.get('/about')
 def aboutMe():
     me = {
         "first_name": "Mauricio",

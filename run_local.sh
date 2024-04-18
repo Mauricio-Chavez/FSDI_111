@@ -1,3 +1,6 @@
 export FLASK_APP=app/routes.py
 export FLASK_ENV=development
-flask run
+export DEBUG=1
+
+
+flask run 
